@@ -26,7 +26,6 @@ class GET_API(Resource):
         return jsonify(data_list)
     
 class POST_API(Resource):
-    @basic_auth.required
     def post(self):
         try:
             data = request.get_json()
