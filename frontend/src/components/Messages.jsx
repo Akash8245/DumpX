@@ -19,7 +19,7 @@ export default function Messages() {
 
       if (password) {
         try {
-          const response = await axios.get('dump-x-api.vercel.app/get', {
+          const response = await axios.get('https://dump-x-api.vercel.app/get', {
             auth: {
               username: username,
               password: password
