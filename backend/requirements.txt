@@ -1,0 +1,8 @@
+flask
+flask-restful
+mysqlclient
+werkzeug
+Flask-PyMongo
+Flask-BasicAuth
+flask-cors
+python-dotenv
