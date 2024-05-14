@@ -8,7 +8,7 @@ export default function Main() {
     e.preventDefault();
 
     axios
-     .post('http://127.0.0.1:5000/post', {
+     .post('https://dump-x-api.vercel.app/post', {
         text: mytext,
       })
       .then(() => {
